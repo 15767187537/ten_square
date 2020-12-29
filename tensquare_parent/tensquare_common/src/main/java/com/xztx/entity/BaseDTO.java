@@ -4,20 +4,28 @@ public class BaseDTO {
 
     private String createBy;
 
-    private Integer createTime;
+    private Long createTime;
 
     private String updateBy;
 
-    private Integer updateTime;
+    private Long updateTime;
 
     public BaseDTO() {
     }
 
-    public BaseDTO(String createBy, Integer createTime, String updateBy, Integer updateTime) {
+    public BaseDTO(String createBy, Long createTime, String updateBy, Long updateTime) {
         this.createBy = createBy;
         this.createTime = createTime;
         this.updateBy = updateBy;
         this.updateTime = updateTime;
+    }
+
+    public Long getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Long createTime) {
+        this.createTime = createTime;
     }
 
     public String getCreateBy() {
@@ -28,13 +36,6 @@ public class BaseDTO {
         this.createBy = createBy;
     }
 
-    public Integer getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Integer createTime) {
-        this.createTime = createTime;
-    }
 
     public String getUpdateBy() {
         return updateBy;
@@ -44,11 +45,11 @@ public class BaseDTO {
         this.updateBy = updateBy;
     }
 
-    public Integer getUpdateTime() {
+    public Long getUpdateTime() {
         return updateTime;
     }
 
-    public void setUpdateTime(Integer updateTime) {
+    public void setUpdateTime(Long updateTime) {
         this.updateTime = updateTime;
     }
 }
