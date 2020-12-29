@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xztx.mapper.LabelDao">
+
+    <select id="saveLabel"  parameterType="com.xztx.entity.LabelDTO">
+       insert into tb_label(id, label_name, state, count, fans, recommend, create_by, create_time, update_by, update_time)
+       values(#{id}, #{labelName}, #{state}, #{count}, #{fans}, #{recommend}, #{createBy}, #{createTime}, #{updateBy}, #{updateTime})
+    </select>
+</mapper>
