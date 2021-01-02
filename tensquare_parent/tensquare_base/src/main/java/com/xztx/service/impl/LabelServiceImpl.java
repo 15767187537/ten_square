@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
+import java.util.List;
 
 @Service
 public class LabelServiceImpl implements LabelService {
@@ -29,6 +30,51 @@ public class LabelServiceImpl implements LabelService {
         label.setCreateTime(DateUtil.dateToStamp(new Date()));
         label.setUpdateTime(DateUtil.dateToStamp(new Date()));
         labelDao.saveLabel(label);
+    }
+
+    /**
+     * 查询所有的标签
+     * @return
+     */
+    @Override
+    public List<LabelDTO> finAll() {
+        return labelDao.findAll();
+    }
+
+    /**
+     * 根据id查询单个标签
+     * @param id
+     * @return
+     */
+    @Override
+    public LabelDTO findOne(String id) {
+        return labelDao.findOne(id);
+    }
+
+    /**
+     * 根据id修改标签内容
+     * @param label
+     */
+    @Transactional
+    @Override
+    public void updateLabel(LabelDTO label) {
+        long time = (new Date()).getTime();
+        label.setUpdateTime(DateUtil.dateToStamp(new Date()));
+        labelDao.updateLabel(label);
+    }
+
+    /**
+     * 根据id 删除标签
+     * @param id
+     */
+    @Transactional
+    @Override
+    public void deleteLabel(String id) {
+        LabelDTO labelDTO = new LabelDTO();
+        labelDTO.setId(id);
+        labelDTO.setState("0");
+        labelDTO.setUpdateTime(DateUtil.dateToStamp(new Date()));
+        labelDao.updateLabel(labelDTO);
     }
 
 }
