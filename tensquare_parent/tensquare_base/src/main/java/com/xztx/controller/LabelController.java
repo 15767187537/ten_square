@@ -1,5 +1,6 @@
 package com.xztx.controller;
 
+import com.github.pagehelper.PageInfo;
 import com.xztx.entity.LabelDTO;
 import com.xztx.entity.Result;
 import com.xztx.entity.StatusCode;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/label")
@@ -54,4 +56,11 @@ public class LabelController {
         labelService.deleteLabel(id);
         return new Result(true, StatusCode.OK, "删除成功");
     }
+
+    @PostMapping(value="/search")
+    public Result search(@RequestBody LabelDTO labelDTO){
+        PageInfo<LabelDTO> labelDTOS = labelService.findSearch(labelDTO);
+        return new Result(true,StatusCode.OK,"查询成功", labelDTOS);
+    }
+
 }

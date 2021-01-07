@@ -1,8 +1,10 @@
 package com.xztx.service;
 
+import com.github.pagehelper.PageInfo;
 import com.xztx.entity.LabelDTO;
 
 import java.util.List;
+import java.util.Map;
 
 public interface LabelService {
     /**
@@ -35,4 +37,11 @@ public interface LabelService {
      * @param id
      */
     void deleteLabel(String id);
+
+    /**
+     * 条件查询
+     * @param labelDTO
+     * @return
+     */
+    PageInfo<LabelDTO> findSearch(LabelDTO labelDTO);
 }

@@ -35,6 +35,10 @@ public class Result {
         this.message = message;
     }
 
+    public Result(Object data) {
+        this.data = data;
+    }
+
     public Result() {
     }
 

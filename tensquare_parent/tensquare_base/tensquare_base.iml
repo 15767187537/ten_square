@@ -96,6 +96,8 @@
     <orderEntry type="library" name="Maven: tk.mybatis:mapper-spring:1.1.5" level="project" />
     <orderEntry type="library" name="Maven: tk.mybatis:mapper-extra:1.1.5" level="project" />
     <orderEntry type="library" name="Maven: tk.mybatis:mapper-spring-boot-autoconfigure:2.1.5" level="project" />
+    <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper:5.1.8" level="project" />
+    <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.1.0" level="project" />
   </component>

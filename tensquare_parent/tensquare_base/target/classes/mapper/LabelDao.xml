@@ -71,4 +71,26 @@
         </set>
         where t.id = #{id,jdbcType=VARCHAR}
     </update>
+
+    <select id="findSearch" resultType="com.xztx.entity.LabelDTO">
+        select
+            id,
+            label_name as labelName,
+            state,
+            count,
+            fans,
+            recommend,
+            create_by as createBy,
+            create_time as createTime,
+            update_by as updateBy,
+            update_time as updateTime
+        from
+            tb_label t
+        where
+            t.state = '1'
+        <if test="labelName != null and labelName != ''">
+            and t.label_name like CONCAT('%', #{labelName,jdbcType=VARCHAR}, '%')
+        </if>
+
+    </select>
 </mapper>

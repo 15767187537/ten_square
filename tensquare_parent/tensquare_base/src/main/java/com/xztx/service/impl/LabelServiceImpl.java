@@ -1,5 +1,7 @@
 package com.xztx.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.xztx.entity.LabelDTO;
 import com.xztx.mapper.LabelDao;
 import com.xztx.service.LabelService;
@@ -11,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class LabelServiceImpl implements LabelService {
@@ -58,7 +61,6 @@ public class LabelServiceImpl implements LabelService {
     @Transactional
     @Override
     public void updateLabel(LabelDTO label) {
-        long time = (new Date()).getTime();
         label.setUpdateTime(DateUtil.dateToStamp(new Date()));
         labelDao.updateLabel(label);
     }
@@ -75,6 +77,22 @@ public class LabelServiceImpl implements LabelService {
         labelDTO.setState("0");
         labelDTO.setUpdateTime(DateUtil.dateToStamp(new Date()));
         labelDao.updateLabel(labelDTO);
+    }
+
+    /**
+     * 条件查询
+     * @param labelDTO
+     * @return
+     */
+    @Override
+    public PageInfo<LabelDTO> findSearch(LabelDTO labelDTO) {
+        int pageNum = labelDTO.getPageNum();
+        int pageSize = labelDTO.getPageSize();
+
+        PageHelper.startPage(pageNum, pageSize);
+        List<LabelDTO> list = labelDao.findSearch(labelDTO);
+        PageInfo pageInfo = new PageInfo(list);
+        return pageInfo;
     }
 
 }
