@@ -10,9 +10,9 @@ public class BaseDTO {
 
     private Long updateTime;
 
-    private Integer pageSize;
+    private Integer pageSize = 10;
 
-    private Integer pageNum;
+    private Integer pageNum = 1;
 
     public BaseDTO() {
     }
