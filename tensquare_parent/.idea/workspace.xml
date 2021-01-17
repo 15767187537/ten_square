@@ -2,28 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c794e9e-382e-4033-b69b-8f7f36aad8a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/EnterpriseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/EnterpriseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/RecruitDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/EnterpriseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/EnterpriseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/EnterpriseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/controller/LabelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/mapper/LabelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/mapper/LabelDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/LabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/LabelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/impl/LabelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/impl/LabelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/resources/mapper/LabelDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/resources/mapper/LabelDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/xztx/controller/LabelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/xztx/controller/LabelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/xztx/mapper/LabelDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/xztx/mapper/LabelDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/xztx/service/LabelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/xztx/service/LabelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/xztx/service/impl/LabelServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/xztx/service/impl/LabelServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/mapper/LabelDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/mapper/LabelDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/tensquare_base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/tensquare_base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/BaseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/BaseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/target/classes/com/xztx/entity/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_common/target/classes/com/xztx/entity/Result.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_parent.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_common/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_base/target/" />
+    <ignored path="$PROJECT_DIR$/tensquare_recruit/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/controller/LabelController.java">
+        <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="247">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,56 +46,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/LabelService.java">
+        <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="209">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/impl/LabelServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="87" column="61" lean-forward="true" selection-start-line="87" selection-start-column="61" selection-end-line="87" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/mapper/LabelDao.java">
+        <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/mapper/LabelDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/BaseDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="e#1322#1323#0" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="194">
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -104,6 +104,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -112,6 +113,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cc</find>
+      <find>&lt;component name=&quot;RunDashboard&quot;&gt;</find>
+      <find>findRecruit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,19 +129,36 @@
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/impl/LabelService.java" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/dao/LabelDao.java" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/entity/LabelDTO.java" />
-        <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/BaseApplication.java" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/tensquare_base/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/utils/DateUtil.java" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/controller/BaseExceptionHandler.java" />
         <option value="$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/Result.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/resources/mapper/LabelDao.xml" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/mapper/LabelDao.java" />
         <option value="$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/BaseDTO.java" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/LabelService.java" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/controller/LabelController.java" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/impl/LabelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_base/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/RecruitApplication.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/EnterpriseController.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/EnterpriseService.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml.fxml" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/EnterpriseDTO.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/EnterpriseDao.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/EnterpriseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/RecruitDTO.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml" />
       </list>
     </option>
   </component>
@@ -184,7 +204,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,25 +214,25 @@
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -221,7 +240,7 @@
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -230,7 +249,7 @@
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -240,7 +259,7 @@
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -250,7 +269,38 @@
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xztx" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xztx" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xztx" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -258,7 +308,7 @@
             <path>
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_recruit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -268,17 +318,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609941544394" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hlmedical-parent-application" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610872967262" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -292,8 +344,16 @@
       <recent name="com.xztx.controller" />
       <recent name="com.xztx.util" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\java\work\ten_square\tensquare_parent\tensquare_recruit\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -304,8 +364,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.18510929" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.RecruitApplication">
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tensquare_base" />
       <extension name="coverage">
@@ -319,8 +380,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecruitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_recruit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xztx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xztx.RecruitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RecruitApplication" />
         <item itemvalue="Spring Boot.BaseApplication" />
       </list>
     </recent_temporary>
@@ -349,6 +424,7 @@
       <workItem from="1609853209822" duration="1017000" />
       <workItem from="1609937509948" duration="3572000" />
       <workItem from="1610023827092" duration="3117000" />
+      <workItem from="1610868953220" duration="3992000" />
     </task>
     <task id="LOCAL-00001" summary="新增util方法">
       <created>1609252526638</created>
@@ -364,16 +440,24 @@
       <option name="project" value="LOCAL" />
       <updated>1609585211996</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加招聘微服务模块">
+      <created>1610865148750</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610865148750</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28706000" />
+    <option name="totallyTimeSpent" value="37276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2191689" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22453083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -381,21 +465,22 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.43502825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32863188" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3700565" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27542374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.14265537" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32768363" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.38841808" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -414,7 +499,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增util方法" />
     <MESSAGE value="新增标签的基础方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增标签的基础方法" />
+    <MESSAGE value="增加招聘微服务模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加招聘微服务模块" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/PageResult.java">
@@ -462,29 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,43 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/entity/LabelDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/mapper/LabelDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/mapper/LabelDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/BaseDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -573,16 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/controller/LabelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/service/impl/LabelServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -590,6 +610,239 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/RecruitApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/entity/LabelDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml.fxml" />
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/mapper/LabelDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="77" column="36" lean-forward="true" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/controller/LabelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="336" column="10" lean-forward="true" selection-start-line="336" selection-start-column="10" selection-end-line="336" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/EnterpriseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/xztx/mapper/LabelDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/EnterpriseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/EnterpriseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/EnterpriseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="77" lean-forward="true" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/RecruitDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/EnterpriseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
