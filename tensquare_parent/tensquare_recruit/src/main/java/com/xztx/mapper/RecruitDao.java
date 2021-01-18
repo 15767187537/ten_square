@@ -9,7 +9,7 @@ import java.util.List;
 public interface RecruitDao {
 
     /**
-     * 查询最新的招聘信息
+     * 根据条件倒序查询招聘信息
      * @param recruitDTO
      * @return
      */

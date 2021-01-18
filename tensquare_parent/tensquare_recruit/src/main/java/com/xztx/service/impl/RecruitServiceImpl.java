@@ -21,4 +21,12 @@ public class RecruitServiceImpl implements RecruitService {
         List<RecruitDTO> recruitDTOS = recruitDao.findRecruit(recruitDTO);
         return recruitDTOS;
     }
+
+    @Override
+    public List<RecruitDTO> newList() {
+        RecruitDTO recruitDTO = new RecruitDTO();
+        recruitDTO.setState(0);
+        List<RecruitDTO> recruitDTOS = recruitDao.findRecruit(recruitDTO);
+        return recruitDTOS;
+    }
 }

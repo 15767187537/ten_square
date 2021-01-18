@@ -11,4 +11,10 @@ public interface RecruitService {
      * @return
      */
     List<RecruitDTO> findAllOrderByCreateTimeDesc();
+
+    /***
+     *
+     * @return
+     */
+    List<RecruitDTO> newList();
 }

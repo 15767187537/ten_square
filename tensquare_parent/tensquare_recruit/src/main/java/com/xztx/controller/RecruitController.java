@@ -19,7 +19,8 @@ public class RecruitController {
     private RecruitService recruitService;
 
     /**
-     * 查询
+     * 推荐职位列表
+     *
      * @return
      */
     @GetMapping(value = "/search/recommend")
@@ -28,4 +29,13 @@ public class RecruitController {
         return new Result(true, StatusCode.OK, "查询成功", list);
     }
 
+    /***
+     * 最新职位列表
+     * @return
+     */
+    @GetMapping(value = "/search/newList")
+    public Result newList() {
+        List<RecruitDTO> recruitDTOS = recruitService.newList();
+        return new Result(true, StatusCode.OK, "查询成功", recruitDTOS);
+    }
 }

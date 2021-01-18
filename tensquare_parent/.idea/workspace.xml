@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c794e9e-382e-4033-b69b-8f7f36aad8a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/EnterpriseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/EnterpriseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/RecruitDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/EnterpriseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/EnterpriseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/EnterpriseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_common/tensquare_common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_common/target/" />
@@ -36,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="380">
+              <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="132">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="209">
+              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -93,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="251">
               <caret line="32" column="52" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="52" />
             </state>
           </provider>
@@ -154,11 +141,11 @@
         <option value="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml" />
         <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/EnterpriseServiceImpl.java" />
         <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/entity/RecruitDTO.java" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml" />
         <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java" />
         <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java" />
-        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java" />
         <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml" />
+        <option value="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java" />
       </list>
     </option>
   </component>
@@ -203,7 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,7 +305,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +316,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610872967262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610976257013" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -424,7 +411,8 @@
       <workItem from="1609853209822" duration="1017000" />
       <workItem from="1609937509948" duration="3572000" />
       <workItem from="1610023827092" duration="3117000" />
-      <workItem from="1610868953220" duration="3992000" />
+      <workItem from="1610868953220" duration="4224000" />
+      <workItem from="1610975135136" duration="1689000" />
     </task>
     <task id="LOCAL-00001" summary="新增util方法">
       <created>1609252526638</created>
@@ -447,17 +435,23 @@
       <option name="project" value="LOCAL" />
       <updated>1610865148750</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加招聘的方法">
+      <created>1610873163612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610873163612</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37276000" />
+    <option name="totallyTimeSpent" value="39197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22453083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2272118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -465,7 +459,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.43502825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32863188" />
@@ -481,6 +474,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.14265537" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.38841808" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.25564972" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -500,7 +494,8 @@
     <MESSAGE value="新增util方法" />
     <MESSAGE value="新增标签的基础方法" />
     <MESSAGE value="增加招聘微服务模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加招聘微服务模块" />
+    <MESSAGE value="增加招聘的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加招聘的方法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/com/xztx/entity/PageResult.java">
@@ -782,16 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/EnterpriseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -802,47 +787,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="251">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/controller/RecruitController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="380">
+          <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/EnterpriseDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/resources/mapper/RecruitDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="209">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/mapper/RecruitDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/impl/RecruitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_recruit/src/main/java/com/xztx/service/RecruitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
